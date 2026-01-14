@@ -36,15 +36,16 @@ auag_nav:
   module: auag_nav
   class: AUAGNav
 ```
-
-4. Push-varsling
+---
+## 4. Push-varsling
 
 I koden, bytt:
 
 notify/mobile_app_din_telefon
 
 til riktig notify-tjeneste fra Home Assistant.
-5. Hvordan kjører den?
+---
+## 5. Hvordan kjører den?
 
 Koden inneholder:
 
@@ -55,8 +56,8 @@ Det betyr:
     ingen automasjon i Home Assistant
 
     AppDaemon kjører jobben selv hver kveld
-
-6. Test manuelt (valgfritt)
+---
+## 6. Test manuelt (valgfritt)
 
 For å teste med én gang, legg midlertidig i initialize():
 
@@ -64,7 +65,9 @@ self.run_report({})
 
 Restart AppDaemon → du får pushmelding.
 Fjern linjen etter test.
-7. Endre innhold
+
+---
+## 7. Endre innhold
 
     Aksjer og vekter: HOLDINGS
 
@@ -72,7 +75,7 @@ Fjern linjen etter test.
 
     Tittel / tekst: run_report()
 
-8. Ferdig
+## 8. Ferdig
 
 Når AppDaemon kjører:
 
