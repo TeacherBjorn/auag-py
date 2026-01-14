@@ -41,7 +41,9 @@ auag_nav:
 
 I koden, bytt:
 
+```yaml
 notify/mobile_app_din_telefon
+```
 
 til riktig notify-tjeneste fra Home Assistant.
 ---
